@@ -1,0 +1,91 @@
+body, h1, h2, h3, p, input, button, a {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+    box-sizing: border-box;  
+}  
+  
+body {  
+    background-color: #f0f8ff;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+}  
+  
+.container {  
+    background-color: #ffffff; 
+    padding: 40px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+    width: 90%;  
+    max-width: 600px;  
+    position: relative;  
+}  
+  
+h1 {  
+    color: #228b22; 
+    margin-bottom: 20px;  
+}  
+  
+.btn-back {  
+    position: absolute;  
+    top: 20px;  
+    right: 20px;  
+    background-color: #006400; 
+    color: #ffffff; 
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.btn-back:hover {  
+    background-color: #006400; 
+}  
+  
+h3 {  
+    margin-top: 20px;  
+    color: #228b22;  
+}  
+  
+form {  
+    margin-top: 20px;  
+    background-color: #e6ffe6;
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+form label {  
+    display: block;  
+    margin-bottom: 10px;  
+    color: #333; 
+}  
+  
+form input[type="number"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #228b22; 
+    border-radius: 5px;  
+    box-sizing: border-box;  
+}  
+  
+form button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #228b22; 
+    color: #ffffff; 
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    transition: background-color 0.3s ease;  
+}  
+  
+form button:hover {  
+    background-color: #006400;  
+}  

@@ -1,0 +1,89 @@
+body, h1, h2, h3, p, input, button, a, table, th, td {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+    box-sizing: border-box;  
+}  
+  
+body {  
+    background-color: #f0f8ff; 
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+}  
+  
+.container {  
+    background-color: #ffffff; 
+    padding: 40px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+    width: 90%;  
+    max-width: 800px;  
+    position: relative; 
+}  
+  
+h1 {  
+    color: #228b22; 
+    margin-bottom: 20px;  
+    text-align: center; 
+}  
+  
+.btn-back {  
+    display: block; 
+    margin-top: 20px;
+    background-color: #228b22; 
+    color: #ffffff; 
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+    width: fit-content; 
+    margin-left: auto;
+}  
+  
+.btn-back:hover {  
+    background-color: #228b22; 
+}  
+  
+h3 {  
+    margin-top: 20px;  
+    color: #228b22; 
+    text-align: center; 
+}  
+  
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-top: 20px;  
+}  
+  
+th, td {  
+    padding: 12px;  
+    text-align: left;  
+    border-bottom: 1px solid #ddd;  
+}  
+  
+th {  
+    background-color: #228b22;  
+    color: #ffffff;
+}  
+  
+tr:nth-child(even) {  
+    background-color: #f9f9f9; 
+}  
+  
+tr:nth-child(odd) {  
+    background-color: #ffffff; 
+}  
+  
+a {  
+    color: #228b22; 
+    text-decoration: none;  
+}  
+  
+a:hover {  
+    text-decoration: underline;  
+}  
